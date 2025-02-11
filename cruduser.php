@@ -21,7 +21,7 @@ include 'koneksi.php';
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <title>Product</title>
+    <title>SKRIPSI</title>
   </head>
   <body>
       <div class="container">
@@ -46,7 +46,7 @@ include 'koneksi.php';
 
           <figure class="text-center mt-5 ">
             <blockquote class="blockquote">
-              <p>Daftar Produk Kopi</p>
+              <p>Daftar Mahasiswa</p>
             </blockquote>
             <figcaption class="blockquote-footer">
               <cite title="Source Title">CRUD : CREATE, READ, UPDATE AND DELETE</cite>
@@ -61,8 +61,8 @@ include 'koneksi.php';
               <tr class="table-dark text-center" >
                 <th scope="col">No</th>
                 <th scope="col">Nama</th>
-                <th scope="col">Nama Kopi</th>
-                <th scope="col">Jenis Biji Kopi</th>
+                <th scope="col">Peminatan</th>
+                <th scope="col">Angkatan</th>
                 <th scope="col">Gambar</th>
                 <!-- <th scope="col">Aksi</th> -->
               </tr>

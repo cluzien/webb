@@ -41,10 +41,10 @@ if (isset($_GET['edit'])){
 
           <figure class="text-center mt-5 ">
             <blockquote class="blockquote">
-              <p>Daftar Produk Kopi</p>
+              <p>Daftar Mahasiswa</p>
             </blockquote>
             <figcaption class="blockquote-footer">
-              <cite title="Source Title">Kelola Daftar Produk</cite>
+              <cite title="Source Title">Kelola Daftar Mahasiswa</cite>
             </figcaption>
           </figure>
 
@@ -55,21 +55,21 @@ if (isset($_GET['edit'])){
             <label for="nama" class="col-sm-2 col-form-label">Nama</label   >
             <div class="col-sm-10">
                 <input type="text" class="form-control" id="nama" name="nama" value="<?php echo $nama; ?>"
-                placeholder="Masukan Nama">
+                placeholder="Masukan Nama Mahasiswa">
             </div>
           </div>
           <div class="mb-3 row">
-            <label for="kopi" class="col-sm-2 col-form-label">Nama Kopi</label>
+            <label for="kopi" class="col-sm-2 col-form-label">Peminatan</label>
             <div class="col-sm-10">
                 <input type="text" class="form-control" id="kopi" name="kopi" value="<?php echo $kopi; ?>"
-                placeholder="Masukan Nama Kopi">
+                placeholder="Masukan Peminatan">
             </div>
           </div> 
           <div class="mb-3 row">
-            <label for="bkopi" class="col-sm-2 col-form-label">Jenis Biji Kopi</label>
+            <label for="bkopi" class="col-sm-2 col-form-label">Angkatan</label>
             <div class="col-sm-10">
                 <input type="text" class="form-control" id="bkopi" name="bkopi" value="<?php echo $bkopi; ?>"
-                placeholder="Masukan Jenis Biji Kopi">
+                placeholder="Masukan Angkatan">
             </div>
           </div>
           <div class="mb-3 row">
